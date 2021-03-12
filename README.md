@@ -1,7 +1,7 @@
-# PSPNet with RepVGG Backbone
-The model is structured with a RepVGG encoder with a PSPNet decoder. Dice loss was utilized for the segmentation head. No auxiliary loss for the encoder output was implemented.
+# PSPNet with RepVGG, mobilenetV1,V2 encoder
+The model is structured with an encoder with a PSPNet decoder. Dice loss was utilized for the segmentation head. No auxiliary loss for the encoder output was implemented.
 
-The model is still slightly less accurate compared to mobilenetv1 on the same training hyperparameters (same training script). I will try to add weight decay later. 
+The RepVgg encoder model is still slightly less accurate compared to mobilenetv1 on the same training hyperparameters (same training script). I will try to add weight decay later. 
 
 I also make a convert file to convert training-time model to inferrence-time model the output of both are equivalent.
 <br>
